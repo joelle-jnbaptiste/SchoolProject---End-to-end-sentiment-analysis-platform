@@ -1,0 +1,21 @@
+artifact_path: cnn_lstm_Word2Vec_text_stem_with_stopwords_model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.13
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.11.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.21.2
+model_size_bytes: 7103462
+model_uuid: a2edfcc6d4dd4380949f76f4b458ab7e
+prompts: null
+run_id: 2a407577ad5444f2b67f057b066e27ea
+utc_time_created: '2025-04-18 22:40:22.647526'

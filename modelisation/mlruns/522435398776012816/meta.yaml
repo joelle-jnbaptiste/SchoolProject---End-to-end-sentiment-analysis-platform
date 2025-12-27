@@ -1,0 +1,6 @@
+artifact_location: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/522435398776012816
+creation_time: 1744995566498
+experiment_id: '522435398776012816'
+last_update_time: 1744995566498
+lifecycle_stage: active
+name: LSTM_FastText_text_lem_no_stopwords

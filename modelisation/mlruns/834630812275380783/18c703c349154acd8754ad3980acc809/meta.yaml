@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/834630812275380783/18c703c349154acd8754ad3980acc809/artifacts
+end_time: 1745012097436
+entry_point_name: ''
+experiment_id: '834630812275380783'
+lifecycle_stage: active
+run_id: 18c703c349154acd8754ad3980acc809
+run_name: CNN_Word2Vec_text_stem_no_stopwords
+run_uuid: 18c703c349154acd8754ad3980acc809
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745012025842
+status: 3
+tags: []
+user_id: misss

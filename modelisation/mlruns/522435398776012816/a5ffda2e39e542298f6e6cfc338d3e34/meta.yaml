@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/522435398776012816/a5ffda2e39e542298f6e6cfc338d3e34/artifacts
+end_time: 1744997542079
+entry_point_name: ''
+experiment_id: '522435398776012816'
+lifecycle_stage: active
+run_id: a5ffda2e39e542298f6e6cfc338d3e34
+run_name: LSTM_FastText_text_lem_no_stopwords
+run_uuid: a5ffda2e39e542298f6e6cfc338d3e34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744995566511
+status: 3
+tags: []
+user_id: misss

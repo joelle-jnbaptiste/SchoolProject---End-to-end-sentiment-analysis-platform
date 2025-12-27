@@ -1,0 +1,6 @@
+artifact_location: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/807817548522065878
+creation_time: 1744992152249
+experiment_id: '807817548522065878'
+last_update_time: 1744992152249
+lifecycle_stage: active
+name: LSTM_Word2Vec_text_lem_with_stopwords

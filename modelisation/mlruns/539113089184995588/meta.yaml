@@ -1,0 +1,6 @@
+artifact_location: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/539113089184995588
+creation_time: 1745011762598
+experiment_id: '539113089184995588'
+last_update_time: 1745011762598
+lifecycle_stage: active
+name: CNN_FastText_text_lem_no_stopwords

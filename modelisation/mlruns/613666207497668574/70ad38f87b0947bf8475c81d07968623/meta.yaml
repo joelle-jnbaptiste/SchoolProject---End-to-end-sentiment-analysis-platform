@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/613666207497668574/70ad38f87b0947bf8475c81d07968623/artifacts
+end_time: 1744992137880
+entry_point_name: ''
+experiment_id: '613666207497668574'
+lifecycle_stage: active
+run_id: 70ad38f87b0947bf8475c81d07968623
+run_name: TF-IDF_LOGREG
+run_uuid: 70ad38f87b0947bf8475c81d07968623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744992134578
+status: 3
+tags: []
+user_id: misss

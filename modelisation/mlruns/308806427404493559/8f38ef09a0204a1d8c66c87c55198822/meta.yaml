@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Formation%20-%20Copie/Projets/AnalyseSentiments/AnalyseSentiment_Modelisation/notebooks/mlruns/308806427404493559/8f38ef09a0204a1d8c66c87c55198822/artifacts
+end_time: 1745058825373
+entry_point_name: ''
+experiment_id: '308806427404493559'
+lifecycle_stage: active
+run_id: 8f38ef09a0204a1d8c66c87c55198822
+run_name: salty-carp-478
+run_uuid: 8f38ef09a0204a1d8c66c87c55198822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745058825298
+status: 4
+tags: []
+user_id: misss

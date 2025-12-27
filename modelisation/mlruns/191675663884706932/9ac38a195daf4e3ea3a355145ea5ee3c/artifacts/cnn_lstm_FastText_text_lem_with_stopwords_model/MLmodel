@@ -1,0 +1,21 @@
+artifact_path: cnn_lstm_FastText_text_lem_with_stopwords_model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.13
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.11.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.21.2
+model_size_bytes: 7103168
+model_uuid: 604c0b045dbb4ea99997d6178e7b6d63
+prompts: null
+run_id: 9ac38a195daf4e3ea3a355145ea5ee3c
+utc_time_created: '2025-04-18 21:56:05.748388'
