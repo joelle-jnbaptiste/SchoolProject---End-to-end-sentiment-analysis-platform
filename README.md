@@ -1,365 +1,247 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
-
-<!-- PROJECT SHIELDS -->
-<div align="center">
-
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-</div>
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
-<h3 align="center">🧙‍♂️ End-to-End Sentiment Analysis Platform</h3>
-
 <p align="center">
-  A full sentiment analysis platform, from raw data to deployed prediction service, blending data science, machine learning, and MLOps into a single production-ready pipeline.
-  <br />
-  <br />
-  <strong>📜 School Project — Machine Learning & Engineering</strong>
-  <br />
-  <br />
-  <a href="https://www.kaggle.com/datasets/kazanova/sentiment140"><strong>📚 Dataset (Sentiment140) »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform">🗡️ Project Repository</a>
+  <img src="https://img.shields.io/github/license/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/School%20Project-ML%20%26%20Data-blueviolet?style=for-the-badge" />
 </p>
+
+<h1 align="center">✨ End-to-End Sentiment Analysis Platform ✨</h1>
+
+<div align="center">
+  <em>
+     *From raw text to real-time predictions*
+  </em>
+</br>
+
+ <b>An end-to-end platform for sentiment analysis, covering data preparation, model training, deployment, monitoring, and user feedback</b>
+</br>
+</br>
+🗃️ **Dataset**  
+ https://www.kaggle.com/datasets/kazanova/sentiment140
+  
 </div>
 
 ---
 
+
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>📜 Grimoire of Contents</summary>
+  <summary>🧭 Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">🔮 About The Project</a>
-      <ul>
-        <li><a href="#context">🧩 Context</a></li>
-        <li><a href="#objectives">🎯 Objectives</a></li>
-      </ul>
-    </li>
-    <li><a href="#architecture-overview">🏰 Architecture Overview</a></li>
-    <li><a href="#project-structure">🗂️ Project Structure</a></li>
-    <li><a href="#data">📊 Dataset</a></li>
-    <li><a href="#built-with">✨ Built With</a></li>
-    <li><a href="#models">🤖 Models & Experiments</a></li>
-    <li><a href="#api">🧪 Prediction API</a></li>
-    <li><a href="#frontend">🖥️ Frontend Interface</a></li>
-    <li><a href="#mlops">⚙️ MLOps & Automation</a></li>
-    <li><a href="#roadmap">🗺️ Roadmap</a></li>
-    <li><a href="#license">📄 License</a></li>
-    <li><a href="#contact">📬 Contact</a></li>
+    <li><a href="#-built-with">Built With</a></li>
+    <li><a href="#-about-the-project">About The Project</a></li>
+    <li><a href="#-dataset">Dataset</a></li>
+    <li><a href="#-architecture-overview">Architecture Overview</a></li>
+    <li><a href="#-models--experiments">Models & Experiments</a></li>
+    <li><a href="#-prediction-api">Prediction API</a></li>
+    <li><a href="#-frontend-interface">Frontend Interface</a></li>
+    <li><a href="#-mlops--automation">MLOps & Automation</a></li>
+    <li><a href="#-repository-structure">Repository Structure</a></li>
+    <li><a href="#-getting-started">Getting Started</a></li>
+    <li><a href="#-license">License</a></li>
+    <li><a href="#-contact">Contact</a></li>
   </ol>
 </details>
 
 ---
-
-## 🔮 About The Project
-
-This repository unifies **three previously independent projects** into a single **end-to-end sentiment analysis platform**:
-
-- 📖 Data exploration & cleansing  
-- 🧠 Model training & comparison  
-- 🧪 API deployment for inference  
-- 🖥️ Frontend for real-time usage  
-- ⚙️ Monitoring, testing, and automation  
-
-The focus is not only on model accuracy, but on **building a complete, production-ready ML system**.
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
-
----
 ### ✨ Built With
 
-#### 🧙 Core Language
-![Python](https://img.shields.io/badge/Python-4B0082?style=for-the-badge&logo=python&logoColor=FFD700)
+[![Python][Python-shield]][Python-url]
+[![FastAPI][FastAPI-shield]][FastAPI-url]
+[![Streamlit][Streamlit-shield]][Streamlit-url]
+[![ScikitLearn][ScikitLearn-shield]][ScikitLearn-url]
+[![MLflow][MLflow-shield]][MLflow-url]
+[![Docker][Docker-shield]][Docker-url]
+[![Azure][Azure-shield]][Azure-url]
 
-#### 🔮 Machine Learning & NLP
-![TensorFlow](https://img.shields.io/badge/TensorFlow-6A0DAD?style=for-the-badge&logo=tensorflow&logoColor=FFD700)
-![Keras](https://img.shields.io/badge/Keras-5D3FD3?style=for-the-badge&logo=keras&logoColor=FFD700)
-![TensorFlow Lite](https://img.shields.io/badge/TensorFlow_Lite-7B2CBF?style=for-the-badge&logo=tensorflow&logoColor=FFD700)
-![DistilBERT](https://img.shields.io/badge/DistilBERT-3A0CA3?style=for-the-badge&logo=huggingface&logoColor=FFD700)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 🏰 Backend & API
-![FastAPI](https://img.shields.io/badge/FastAPI-3A0CA3?style=for-the-badge&logo=fastapi&logoColor=FFD700)
+## 🎯 About The Project
 
-#### 🪄 Frontend
-![Streamlit](https://img.shields.io/badge/Streamlit-7209B7?style=for-the-badge&logo=streamlit&logoColor=FFD700)
+This project implements a **complete end-to-end sentiment analysis platform**, designed to reflect a **production-ready machine learning workflow**.
 
-#### 📜 Experiment Tracking & Monitoring
-![MLflow](https://img.shields.io/badge/MLflow-560BAD?style=for-the-badge&logo=mlflow&logoColor=FFD700)
+It covers the full lifecycle of an ML product:
 
-#### ⚔️ DevOps & Deployment
-![Docker](https://img.shields.io/badge/Docker-4B0082?style=for-the-badge&logo=docker&logoColor=FFD700)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-5A189A?style=for-the-badge&logo=githubactions&logoColor=FFD700)
+- Data preparation and exploration
+- Model training and comparison
+- API deployment for real-time predictions
+- User feedback collection
+- Monitoring and automation using MLOps principles
 
-
----
-
-### 🧩 Context
-
-You play the role of a **Data Scientist / ML Engineer** commissioned to design a sentiment analysis tool based on social media content.
-
-The solution must be:
-
-- 🪄 Interpretable  
-- 🛡️ Reliable  
-- ⚙️ Deployable  
-- 🧑‍💼 Usable by non-technical stakeholders  
-
-This project mirrors real-world ML constraints encountered in industry.
+The goal is to demonstrate how a sentiment analysis model can be **designed, deployed, and maintained** in a realistic environment.
 
 ---
 
-### 🎯 Objectives
+## 🗃️  Dataset
 
-- Build and compare several sentiment classification models  
-- Track experiments and metrics  
-- Deploy the best model behind an API  
-- Provide a simple frontend for interaction  
-- Capture user feedback to monitor prediction quality  
+The project uses the **Sentiment140** dataset, a widely used benchmark for sentiment analysis tasks.
 
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+- 1.6M labeled tweets
+- Binary sentiment labels (positive / negative)
+- Real-world, noisy text data
+
+Dataset source:  
+https://www.kaggle.com/datasets/kazanova/sentiment140
 
 ---
 
 ## 🏰 Architecture Overview
 
-The platform follows a classic **ML production pipeline**:
+The platform follows a modular architecture:
 
-- 📊 **Data Layer** — ingestion, cleaning, feature engineering  
-- 🧠 **Modeling Layer** — experimentation and selection  
-- 🧪 **Serving Layer** — API for inference and feedback  
-- 🖥️ **Interface Layer** — user interaction  
-- ⚙️ **MLOps Layer** — tracking, tests, CI/CD  
+- **Data layer**: preprocessing and dataset handling
+- **Modeling layer**: training, evaluation, and explainability
+- **API layer**: FastAPI service exposing prediction endpoints
+- **Frontend layer**: Streamlit interface for interaction and validation
+- **MLOps layer**: MLflow tracking, deployment automation, monitoring
 
-Each component is isolated yet connected, ensuring **clarity, modularity, and scalability**.
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+This architecture emphasizes **scalability**, **traceability**, and **maintainability**.
 
 ---
 
-## 🗂️ Project Structure
+## 🪄 Models & Experiments
 
-```text
-SchoolProject---End-to-end-sentiment-analysis-platform/
-│
-├── modelisation/
-│   ├── Nettoyage.ipynb
-│   ├── modelisation.ipynb
-│   ├── final_model_tf.ipynb
-│   ├── mlruns/
-│   └── README.md
-│
-├── api/
-│   ├── main.py
-│   └── model_final/
-│       ├── distilbert_model.tflite
-│       └── model_loader.py
-│
-├── front/
-│   ├── app.py
-│   └── README.md
-│
-├── .github/workflows/
-│   ├── tests.yml
-│   └── deploy.yml
-│
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
-## 📊 Dataset
+Several models are explored and compared:
 
-### 📚 Sentiment140
+- Classical machine learning models
+- Neural network-based approaches
+- Transformer-based models
 
-- **Source**: Kaggle  
-- **Dataset**: Sentiment140  
-- **Lien**: https://www.kaggle.com/datasets/kazanova/sentiment140  
+Experiments include:
 
-**Description du grimoire de données** 🪄  
-Le dataset **Sentiment140** contient environ **1,6 million de tweets** annotés automatiquement selon leur polarité :
-
-- `0` → sentiment négatif  
-- `4` → sentiment positif  
-
-Chaque entrée comprend notamment :
-- le texte brut du tweet
-- un identifiant
-- des métadonnées temporelles
-
-Ces données reflètent un **langage réel, bruité et non structuré**, proche des cas industriels.
+- Feature engineering and text preprocessing
+- Hyperparameter tuning
+- Model comparison using standard NLP metrics
+- Explainability analysis (feature importance / SHAP-style insights)
 
 ---
 
-### 📜 Référence méthodologique
+## 👑 Model Evaluation
 
-La démarche initiale d’exploration et de modélisation s’inspire de l’article Kaggle suivant, servant de **point d’entrée pédagogique** :
+Models are evaluated using:
 
-- https://www.kaggle.com/code/kazanova/sentiment140  
+- Accuracy
+- Precision / Recall
+- F1-score
+- Error analysis on misclassified samples
 
-Ce projet va toutefois **au-delà** de ce kernel en intégrant :
-- une vraie séparation entraînement / service
-- une API de prédiction
-- un frontend utilisateur
-- des briques MLOps
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+Evaluation results are logged and tracked using **MLflow**.
 
 ---
 
+## 🔮 Prediction API
 
-## 🤖 Models & Experiments
+A **FastAPI** service exposes the trained model for inference.
 
-Plusieurs créatures algorithmiques ont été invoquées avant d’élire le champion final :
+Main features:
 
-- 🧪 **TF-IDF + Logistic Regression**  
-  Modèle linéaire robuste servant de baseline.
+- REST endpoints for predictions
+- Input validation
+- Logging of prediction outcomes
+- Feedback loop for incorrect predictions
 
-- 🧠 **LSTM**  
-  Capte la dynamique séquentielle des phrases.
-
-- 🕸️ **CNN**  
-  Détecte des motifs locaux (n-grams).
-
-- 🔗 **CNN + LSTM**  
-  Architecture hybride.
-
-- 👑 **DistilBERT**  
-  Modèle final retenu pour son excellent compromis performance / complexité.
-
-### 🧾 Suivi des expériences
-
-Toutes les expériences sont tracées avec **MLflow** :
-- métriques (accuracy, F1-score, ROC-AUC)
-- paramètres
-- artefacts modèles
-
-Les logs sont disponibles dans le dossier `modelisation/mlruns/`.
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
-
----
-
-## 🧪 Prediction API
-
-La couche service est assurée par une **API FastAPI**, conçue comme un artefact de production.
-
-### 🔮 Fonctionnalités
-
-- Chargement du modèle **DistilBERT (TFLite)**
-- Prédiction de sentiment à partir d’un texte
-- Enregistrement du feedback utilisateur
-
-### 🗝️ Endpoints principaux
-
-- `POST /predict` → prédiction du sentiment  
-- `POST /feedback` → retour utilisateur  
-
-### 🐳 Exécution via Docker
-
-    docker build -t sentiment-api .
-    docker run -p 8000:8000 sentiment-api
-
-Une fois lancée, la documentation interactive est accessible sur :
-
-    http://localhost:8000/docs
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+The API is containerized and deployable via Docker.
 
 ---
 
 ## 🖥️ Frontend Interface
 
-Un **grimoire d’invocation visuel** a été conçu avec **Streamlit**.
+A **Streamlit** application allows users to:
 
-### 🪄 Fonctionnalités
+- Submit text for sentiment prediction
+- Visualize prediction confidence
+- Validate or reject model outputs
+- Explore model behavior interactively
 
-- Saisie d’un texte libre
-- Appel de l’API de prédiction
-- Affichage du sentiment (positif / négatif)
-- Envoi d’un feedback utilisateur
-
-### 🚀 Lancer l’interface
-
-    streamlit run app.py
-
-L’application s’ouvre par défaut sur :
-
-    http://localhost:8501
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+This interface closes the loop between users and the ML system.
 
 ---
 
-## ⚙️ MLOps & Automation
+## 🧪 MLOps & Automation
 
-Ce projet met l’accent sur les **bonnes pratiques industrielles** :
+The project integrates key MLOps practices:
 
-- 🧪 Tests unitaires (modèle & API)
-- 🔁 CI avec GitHub Actions
-- 📜 Versionnement des modèles
-- 🐳 Environnements reproductibles
+- Experiment tracking with MLflow
+- Model versioning
+- Deployment automation
+- Monitoring prediction quality
+- Alerting on degraded performance
 
-L’objectif est de démontrer une **chaîne ML complète**, fiable et maintenable.
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
-
----
-
-## 🗺️ Roadmap
-
-Améliorations futures envisagées :
-
-- 🔍 Explicabilité des prédictions (SHAP / LIME)
-- 🧿 Détection de dérive de données
-- 🔁 Ré-entraînement automatique basé sur le feedback
-- ☁️ Déploiement cloud (Azure / GCP)
-- 🌍 Support multilingue
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+The objective is to simulate **real-world ML operations**.
 
 ---
 
-## 📄 License
+## 🗺️ Repository Structure
 
-Ce projet est fourni **à des fins pédagogiques** dans le cadre d’une formation en data science.  
-L’utilisation des données est soumise aux conditions de Kaggle.
-
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
+    SchoolProject---End-to-end-sentiment-analysis-platform/
+    ├── api/                 # FastAPI service
+    ├── frontend/            # Streamlit application
+    ├── notebooks/           # Experiments & analysis
+    ├── models/              # Trained models
+    ├── docker/              # Docker configuration
+    ├── mlflow/              # Experiment tracking
+    └── README.md
 
 ---
 
-## 📬 Contact
+## ⚔️ Getting Started
 
-🧙‍♀️ **Joëlle JEAN BAPTISTE**  
-🔗 LinkedIn : https://fr.linkedin.com/in/joëllejnbaptiste  
+This project can be run locally using Docker or directly with Python.
 
-🗡️ Project Repository :  
-https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform
+### Prerequisites
 
-<p align="right">(<a href="#readme-top">🔝 back to top</a>)</p>
-<!-- MARKDOWN LINKS & IMAGES -->
+- Python 3.9+
+- Docker (optional)
+- pip or conda
 
-[stars-shield]: https://img.shields.io/github/stars/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform.svg?style=for-the-badge
-[stars-url]: https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform/stargazers
+### Installation
 
-[issues-shield]: https://img.shields.io/github/issues/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform.svg?style=for-the-badge
-[issues-url]: https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform/issues
+1. Clone the repository:
 
-[license-shield]: https://img.shields.io/badge/License-Educational-6A0DAD?style=for-the-badge
-[license-url]: #
+       git clone https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform.git
 
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn-4B0082?style=for-the-badge&logo=linkedin&logoColor=FFD700
-[linkedin-url]: https://fr.linkedin.com/in/jo%C3%ABllejnbaptiste
+2. Install dependencies:
 
+       pip install -r requirements.txt
 
+3. Launch the API:
 
+       uvicorn api.main:app --reload
+
+4. Launch the frontend:
+
+       streamlit run frontend/app.py
+
+---
+
+## ✒️ License
+
+This project is provided for educational purposes.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🕊️ Contact
+
+Joëlle JEAN BAPTISTE  
+LinkedIn: https://fr.linkedin.com/in/joëllejnbaptiste  
+
+Project Link: https://github.com/joelle-jnbaptiste/SchoolProject---End-to-end-sentiment-analysis-platform
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+[Python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[FastAPI-shield]: https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white
+[FastAPI-url]: https://fastapi.tiangolo.com/
+[Streamlit-shield]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white
+[Streamlit-url]: https://streamlit.io/
+[ScikitLearn-shield]: https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+[ScikitLearn-url]: https://scikit-learn.org/
+[MLflow-shield]: https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge
+[MLflow-url]: https://mlflow.org/
+[Docker-shield]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://www.docker.com/
+[Azure-shield]: https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white
+[Azure-url]: https://azure.microsoft.com/
